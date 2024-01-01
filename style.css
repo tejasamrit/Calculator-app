@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    width: 280px;
+    height: 300px;
+    /* background-color: darkcyan; */
+    background-color: rgb(216, 63, 2);
+    padding: 15px 15px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 6px;
+    border: 1px solid rgb(47, 47, 47);
+}
+.input{
+    padding: 8px;
+    /* background-color: blueviolet; */
+}
+.input input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 16px;
+    /* border: 1px solid rgb(63, 63, 63); */
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.btn{
+    /* background-color: chocolate; */
+    height: 218px;
+    padding: 8px;
+}
+.btn button{
+    width:40px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    /* border: 1px solid rgb(67, 67, 67); */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.btn button:hover{
+    background-color: rgb(188, 188, 188);
+}
+.pos{
+    margin-left: 20px;
+}
+#equal{
+    background-color:rgb(12, 12, 12);
+    color: white;
+}
+#equal:hover{
+    background-color: rgb(30, 30, 30);
+}
